@@ -1,16 +1,11 @@
 package com.example.app;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.app.ActionBar.Tab;
 import android.app.ActionBar.TabListener;
-import android.os.Bundle;
 import android.app.Fragment;
 
-/**
- * Created by ssk on 14/03/23.
- */
 public class MainTabListener<T extends Fragment> implements TabListener {
 
     private Fragment mFragment;
