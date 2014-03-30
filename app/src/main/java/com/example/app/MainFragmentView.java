@@ -1,6 +1,5 @@
 package com.example.app;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -20,7 +19,7 @@ public class MainFragmentView extends Fragment{
             ViewGroup container,
             Bundle savedInstanceState){
 
-        View view = (RelativeLayout)inflater.inflate(R.layout.fragment_main, container, false);
+        View view = inflater.inflate(R.layout.fragment_main, container, false);
         textView = (TextView)view.findViewById(R.id.test_textfield);
         textView.setText("text test");
         Button button = (Button)view.findViewById(R.id.test_button);
